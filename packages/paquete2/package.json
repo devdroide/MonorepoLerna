@@ -5,7 +5,7 @@
   "keywords": [],
   "author": "devdroide <johne.aplicativos@gmail.com>",
   "license": "ISC",
-  "main": "lib/paquete2.js",
+  "main": "lib/index.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -26,5 +26,5 @@
     "url": "https://github.com/devdroide/MonorepoLerna/issues"
   },
   "homepage": "https://github.com/devdroide/MonorepoLerna#readme",
-  "gitHead": "a3e07d70d85a4e22863a997e31059b8e9552ac84"
+  "gitHead": "5739a1bd1ec7174fe7171e80475f16b6436f49de"
 }
