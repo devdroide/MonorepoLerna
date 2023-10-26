@@ -4,11 +4,13 @@
   "workspaces": [
     "packages/*"
   ],
-  "dependencies": {},
   "devDependencies": {
-    "lerna": "^7.4.1"
+    "@types/node": "^20.8.9",
+    "lerna": "^7.4.1",
+    "typescript": "^5.2.2"
   },
   "scripts": {
-    "comandos": "lerna run comandos"
+    "comandos": "lerna run comandos",
+    "tsc": "lerna run tsc"
   }
 }

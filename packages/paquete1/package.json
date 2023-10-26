@@ -19,7 +19,8 @@
   },
   "scripts": {
     "comandos": "echo \"comando paquete 1\"",
-    "test": "node ./__tests__/paquete1.test.js"
+    "test": "node ./__tests__/paquete1.test.js",
+    "tsc": "tsc"
   },
   "bugs": {
     "url": "https://github.com/devdroide/MonorepoLerna/issues"
