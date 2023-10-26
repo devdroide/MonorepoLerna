@@ -1,6 +1,6 @@
 {
   "name": "paquete1",
-  "version": "0.0.1-alpha.0",
+  "version": "0.0.0",
   "description": "description",
   "author": "devdroide <johne.aplicativos@gmail.com>",
   "homepage": "https://github.com/devdroide/MonorepoLerna#readme",
@@ -24,5 +24,6 @@
   },
   "bugs": {
     "url": "https://github.com/devdroide/MonorepoLerna/issues"
-  }
+  },
+  "gitHead": "846954b11e8bbbecf826bfd209c806a00f16e8f8"
 }
