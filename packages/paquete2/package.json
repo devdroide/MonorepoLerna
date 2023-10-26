@@ -1,0 +1,28 @@
+{
+  "name": "paquete2",
+  "version": "0.0.0",
+  "description": "Now I’m the model of a modern major general / The venerated Virginian veteran whose men are all / Lining up, to put me up on a pedestal / Writin’ letters to relatives / Embellishin’ my elegance and eloquence / But the elephant is in the room / The truth is in ya face when ya hear the British cannons go / BOOM",
+  "keywords": [],
+  "author": "devdroide <johne.aplicativos@gmail.com>",
+  "license": "ISC",
+  "main": "lib/paquete2.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devdroide/MonorepoLerna.git"
+  },
+  "scripts": {
+    "comandos": "echo \"comando paquete 2\"",
+    "test": "node ./__tests__/paquete2.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/devdroide/MonorepoLerna/issues"
+  },
+  "homepage": "https://github.com/devdroide/MonorepoLerna#readme"
+}
