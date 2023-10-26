@@ -1,1 +1,3 @@
-declare function paquete2(): string;
+export declare class Hacer {
+    imprimir(texto: any): void;
+}

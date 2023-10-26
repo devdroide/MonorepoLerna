@@ -1,6 +1,10 @@
-'use strict';
-module.exports = paquete2;
-function paquete2() {
-    return 'Hello from paquete2';
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Hacer = void 0;
+class Hacer {
+    imprimir(texto) {
+        console.log(texto);
+    }
 }
+exports.Hacer = Hacer;
 //# sourceMappingURL=paquete2.js.map

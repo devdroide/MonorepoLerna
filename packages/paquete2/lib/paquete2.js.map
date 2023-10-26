@@ -1,1 +1,1 @@
-{"version":3,"file":"paquete2.js","sourceRoot":"","sources":["../src/paquete2.ts"],"names":[],"mappings":"AAAA,YAAY,CAAC;AAEb,MAAM,CAAC,OAAO,GAAG,QAAQ,CAAC;AAE1B,SAAS,QAAQ;IACf,OAAO,qBAAqB,CAAC;AAC/B,CAAC"}
+{"version":3,"file":"paquete2.js","sourceRoot":"","sources":["../src/paquete2.ts"],"names":[],"mappings":";;;AAAA,MAAa,KAAK;IAChB,QAAQ,CAAC,KAAK;QACZ,OAAO,CAAC,GAAG,CAAC,KAAK,CAAC,CAAA;IACpB,CAAC;CACF;AAJD,sBAIC"}
