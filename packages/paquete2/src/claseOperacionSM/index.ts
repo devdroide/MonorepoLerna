@@ -15,8 +15,10 @@ export class Operaciones {
     return resultado;
   }
 
-  dividir(num1: number, num2: number): number {
-    const resultado = num1 / num2;
+  dividir(num1: number, num2: number): number | string {
+    let resultado: number | string = "No es posible dividir por 0"
+    if(num2 === 0) return resultado
+    resultado = num1 / num2;
     console.log("La división es:", resultado);
     return resultado;
   }
