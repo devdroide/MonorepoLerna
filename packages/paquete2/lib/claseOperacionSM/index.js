@@ -12,6 +12,16 @@ class Operaciones {
         console.log("La resta es:", resultado);
         return resultado;
     }
+    multiplicar(num1, num2) {
+        const resultado = num1 * num2;
+        console.log("La multiplicación es:", resultado);
+        return resultado;
+    }
+    dividir(num1, num2) {
+        const resultado = num1 / num2;
+        console.log("La división es:", resultado);
+        return resultado;
+    }
 }
 exports.Operaciones = Operaciones;
 //# sourceMappingURL=index.js.map
