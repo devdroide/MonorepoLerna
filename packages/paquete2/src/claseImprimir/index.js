@@ -7,4 +7,3 @@ class Hacer {
     }
 }
 exports.Hacer = Hacer;
-//# sourceMappingURL=index.js.map

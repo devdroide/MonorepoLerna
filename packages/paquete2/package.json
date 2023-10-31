@@ -1,17 +1,17 @@
 {
-  "name": "paquete2",
+  "name": "paquete2-devdroide",
   "version": "0.1.0-beta.1",
   "description": "Now I’m the model of a modern major general / The venerated Virginian veteran whose men are all / Lining up, to put me up on a pedestal / Writin’ letters to relatives / Embellishin’ my elegance and eloquence / But the elephant is in the room / The truth is in ya face when ya hear the British cannons go / BOOM",
   "keywords": [],
   "author": "devdroide <johne.aplicativos@gmail.com>",
   "license": "ISC",
-  "main": "lib/index.js",
+  "main": "dist/index.js",
   "directories": {
-    "lib": "lib",
+    "dist": "dist",
     "test": "__tests__"
   },
   "files": [
-    "lib"
+    "dist"
   ],
   "repository": {
     "type": "git",
@@ -26,5 +26,5 @@
     "url": "https://github.com/devdroide/MonorepoLerna/issues"
   },
   "homepage": "https://github.com/devdroide/MonorepoLerna#readme",
-  "gitHead": "2480a61500cfe13419e22106511e64041f8f835c"
+  "gitHead": "1d92a7f430db54e3fcbeb2aea5c23c594d092e29"
 }

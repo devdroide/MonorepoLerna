@@ -18,10 +18,12 @@ class Operaciones {
         return resultado;
     }
     dividir(num1, num2) {
-        const resultado = num1 / num2;
+        let resultado = "No es posible dividir por 0";
+        if (num2 === 0)
+            return resultado;
+        resultado = num1 / num2;
         console.log("La división es:", resultado);
         return resultado;
     }
 }
 exports.Operaciones = Operaciones;
-//# sourceMappingURL=index.js.map
