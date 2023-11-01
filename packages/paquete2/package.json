@@ -5,7 +5,7 @@
   "keywords": [],
   "author": "devdroide <johne.aplicativos@gmail.com>",
   "license": "ISC",
-  "main": "dist/index.js",
+  "main": "index.js",
   "directories": {
     "dist": "dist",
     "test": "__tests__"
