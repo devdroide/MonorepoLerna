@@ -23,7 +23,5 @@ export class Operaciones {
     return resultado;
   }
 
-  exponente(num1: number, num2: number){
-    return 0
-  }
+  
 }
