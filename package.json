@@ -1,0 +1,17 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@types/node": "^20.8.9",
+    "lerna": "^7.4.1",
+    "typescript": "^5.2.2"
+  },
+  "scripts": {
+    "build": "npx tsc -b -v packages",
+    "comandos": "lerna run comandos",
+    "tsc": "lerna run tsc"
+  }
+}
