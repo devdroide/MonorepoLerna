@@ -1,5 +1,5 @@
 export class Hacer {
-  imprimir(texto){
-    console.log(texto)
+  imprimir(texto: any){
+    console.log("Mi texto es:", texto)
   }
 }
