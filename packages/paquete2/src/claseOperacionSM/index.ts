@@ -25,7 +25,7 @@ export class Operaciones {
 
   exponente(num1: number, num2: number):number {
     const resultado = Math.pow(num1, num2);
-    console.log("El resultado del exponente es: ", resultado);
+    console.log("El exponente es: ", resultado);
     return resultado
   }
 

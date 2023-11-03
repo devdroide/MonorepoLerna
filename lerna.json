@@ -3,7 +3,9 @@
   "version": "independent",
   "command": {
     "version": {
-      "message": "chore(release): publish %v"
+      "allowBranch": ["main", "beta"],
+      "conventionalCommits": true,
+      "message": "chore(release): publish %s"
     }
   }
 }
