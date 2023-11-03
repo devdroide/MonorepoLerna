@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitAny": false,
+    "noUnusedLocals": false,
+    "removeComments": true,
+    "noLib": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "strictPropertyInitialization": false,
+    "useUnknownInCatchVariables": false,
+    "target": "ES2021",
+    "sourceMap": true,
+    "allowJs": false,
+    "outDir": "dist",
+    "baseUrl": ".",
+    "paths": {
+      "zanobijs-commons": ["./packages/paquete1"],
+      "zanobijs-commons/*": ["./packages/paquete2/*"],
+      "zanobijs-core": ["./packages/paquete2"],
+      "zanobijs-core/*": ["./packages/paquete2/*"]
+    }
+  },
+  "include": ["packages/**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}

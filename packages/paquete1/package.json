@@ -1,0 +1,29 @@
+{
+  "name": "paquete1-devdroide",
+  "version": "0.0.12",
+  "description": "description",
+  "author": "devdroide <johne.aplicativos@gmail.com>",
+  "homepage": "https://github.com/devdroide/MonorepoLerna#readme",
+  "license": "ISC",
+  "main": "paquete1.js",
+  "directories": {
+    "dist": "dist",
+    "test": "__tests__"
+  },
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devdroide/MonorepoLerna.git"
+  },
+  "scripts": {
+    "comandos": "echo \"comando paquete 1\"",
+    "test": "node ./__tests__/paquete1.test.js",
+    "tsc": "tsc"
+  },
+  "bugs": {
+    "url": "https://github.com/devdroide/MonorepoLerna/issues"
+  },
+  "gitHead": "1d92a7f430db54e3fcbeb2aea5c23c594d092e29"
+}

@@ -1,0 +1,11 @@
+{
+  "files": [],
+  "references": [
+    {
+      "path": "./paquete1/tsconfig.build.json"
+    },
+    {
+      "path": "./paquete2/tsconfig.build.json"
+    }
+  ]
+}
