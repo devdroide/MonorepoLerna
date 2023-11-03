@@ -1,0 +1,33 @@
+name: Lerna Release
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout del código
+      uses: actions/checkout@v2
+
+    - name: Configurar Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: 14
+
+    - name: Instalar dependencias
+      run: npm install
+
+    - name: Crear y publicar versión con Lerna
+      run: |
+        npx lerna version preminor --preid beta --yes
+        npx lerna publish from-package --dist-tag beta
+        git push --follow-tags
+
+    - name: Crear Release en GitHub
+      uses: actions/create-release@v1
+      with:
+        files: 'packages/*/*/dist/*'  # Especifica los archivos que deseas incluir en el release
+        token: ${{ secrets.GITHUB_TOKEN }}
