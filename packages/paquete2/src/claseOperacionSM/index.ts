@@ -24,7 +24,9 @@ export class Operaciones {
   }
 
   exponente(num1: number, num2: number):number {
-    return Math.pow(num1, num2);
+    const resultado = Math.pow(num1, num2);
+    console.log("La división es: ", resultado);
+    return resultado
   }
 
 }
