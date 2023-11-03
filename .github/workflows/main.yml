@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - beta  # Añade aquí el nombre de tu rama para versiones beta
 
 jobs:
   release:
@@ -20,13 +21,26 @@ jobs:
     - name: Instalar dependencias
       run: npm install
 
+    - name: Determinar el tipo de versión (Beta o Estable)
+      id: determine-version
+      run: |
+        if [[ $GITHUB_REF == "refs/heads/beta" ]]; then
+          echo "::set-output name=version::beta"
+        else
+          echo "::set-output name=version::estable"
+        fi
+
     - name: Crear y publicar versión con Lerna
       run: |
-        npx lerna version preminor --preid beta --yes
-        npx lerna publish from-package --dist-tag beta
-        git push --follow-tags
+        if [[ "${{ steps.determine-version.outputs.version }}" == "beta" ]]; then
+          npx lerna version prerelease --preid beta --yes
+        else
+          npx lerna version --yes
+        fi
+        npx lerna publish from-package --dist-tag ${{ steps.determine-version.outputs.version }}
 
     - name: Crear Release en GitHub
+      if: steps.determine-version.outputs.version != 'beta'
       uses: actions/create-release@v1
       with:
         files: 'packages/*/*/dist/*'  # Especifica los archivos que deseas incluir en el release
