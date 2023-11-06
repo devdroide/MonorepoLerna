@@ -1,9 +1,9 @@
 {
   "extends": "../tsconfig.build.json",
   "compilerOptions": {
-    "outDir": "./dist",
+    "outDir": "./src",
     "declaration": true,
-    "declarationDir": "./dist",
+    "declarationDir": "./src",
     "rootDir": "./src"
   },
   "include": ["src/**/*.ts"],
