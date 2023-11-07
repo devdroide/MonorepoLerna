@@ -12,9 +12,16 @@ gulp.task("clean:packages", async () => {
       `packages/${packageName}/*.js`,
       `packages/${packageName}/*.js.map`,
       `packages/${packageName}/*.d.ts`,
+      `packages/${packageName}/*.tsbuildinfo`,
+      `packages/${packageName}/CHANGELOG.md`,
       `packages/${packageName}/src/*.js`,
       `packages/${packageName}/src/*.js.map`,
       `packages/${packageName}/src/*.d.ts`,
+      `packages/${packageName}/src/*.tsbuildinfo`,
+      `packages/${packageName}/src/CHANGELOG.md`,
+      `packages/${packageName}/src/**/*.js`,
+      `packages/${packageName}/src/**/*.js.map`,
+      `packages/${packageName}/src/**/*.d.ts`,
     ]);
     console.log(`Files deleted in packages/${packageName}`);
   });
